@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\valdi\pvt\sdl2-image-sample\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nessnake\game.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D6476A23-C5AD-324F-AD86-076669E44077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tapeworm">
+      <UniqueIdentifier>{eb060cbc-6f84-449d-bfd5-75f4937e979b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\inc">
+      <UniqueIdentifier>{6afda958-a733-4df7-90a2-35991a731244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tapeworm\maps">
+      <UniqueIdentifier>{6c844d74-c142-4875-9218-987ed51b3537}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\nessnake\collision.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\definitions.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\digits.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\game.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\global.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\globalbss.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\globalzp.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\hud.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\map.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_bloodsplat.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_box.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_countdown.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_flea.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_fleada.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_hudsprites.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_maggot.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_mosquito.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_numbers.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_pipe.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_pressstart.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_presuredoor.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_presuredoorswitch.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\meta_worm.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\nes.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\object.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\palette.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\player.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\sprites.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\tileset.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\timer.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\util.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\vrambuf.h">
+      <Filter>Source Files\tapeworm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\neswin.h">
+      <Filter>Source Files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main.h">
+      <Filter>Source Files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport8.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport9.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport10.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport11.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport12.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport13.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport14.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport15.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport16.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport17.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport18.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport19.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport20.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport21.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport22.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport23.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport24.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport25.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport26.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport27.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport28.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport29.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport30.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport31.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport32.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport33.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door1.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door2.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door3.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door4.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door5.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door6.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door7.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door8.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door9.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door10.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door11.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door12.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door13.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door14.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door15.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door16.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door17.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door18.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door19.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door20.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door21.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door22.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door23.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door24.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door25.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door26.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door27.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door28.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door29.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door30.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door31.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door32.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\door33.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map1.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map2.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map3.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map4.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map5.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map6.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map7.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map8.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map9.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map10.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map11.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map12.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map13.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map14.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map15.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map16.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map17.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map18.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map19.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map20.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map21.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map22.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map23.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map24.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map25.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map26.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map27.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map28.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map29.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map30.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map31.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map32.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\map33.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\maps.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects1.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects2.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects3.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects4.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects5.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects6.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects7.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects8.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects9.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects10.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects11.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects12.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects13.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects14.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects15.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects16.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects17.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects18.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects19.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects20.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects21.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects22.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects23.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects24.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects25.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects26.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects27.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects28.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects29.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects30.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects31.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects32.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\objects33.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe1.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe2.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe3.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe4.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe5.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe6.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe7.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe8.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe9.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe10.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe11.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe12.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe13.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe14.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe15.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe16.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe17.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe18.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe19.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe20.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe21.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe22.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe23.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe24.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe25.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe26.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe27.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe28.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe29.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe30.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe31.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe32.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\pipe33.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch1.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch2.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch3.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch4.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch5.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch6.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch7.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch8.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch9.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch10.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch11.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch12.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch13.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch14.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch15.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch16.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch17.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch18.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch19.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch20.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch21.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch22.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch23.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch24.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch25.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch26.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch27.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch28.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch29.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch30.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch31.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch32.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\switch33.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport1.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport2.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport3.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport4.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport5.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport6.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nessnake\maps\teleport7.h">
+      <Filter>Source Files\tapeworm\maps</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

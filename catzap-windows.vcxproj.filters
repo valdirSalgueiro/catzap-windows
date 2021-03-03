@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\neswin.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Asset.h">
+      <Filter>include\nes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\bullet_enemy.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\bullet_player.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\common_homming.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\commontypes.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\data.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\definitions.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_AlphaCaw.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_Asteroid.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_CCAggressor.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_CCBomber.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_CCDestroyer.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_CCFighter.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_CCShiny.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_CCSpawner.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_RattaLauncher.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_RattaSwappers.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_Rattungandr.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_SmallAsteroid.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_SpaceSerpent.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_SpaceSerpentSegment.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_Streamer.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_SwarmCloak.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_SwarmCloakSpiral.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_Trickster.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\enemy_ZigZagger.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\explosion.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\gameover.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\globalbss.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\globalzp.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\helper.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\item.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\load.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_alphabet.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_alphabetBG.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_alphacaw.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_base.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_base0.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_carrier.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_flamethrower.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_gamefg.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_level1enemies.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_level2enemies.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_level3enemies.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_level4enemies.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_level5enemies.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_level5enemies2.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_level6enemies.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_level7enemies.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_powerblast.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_rattaswappers.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_rattungsprite.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_rattungsprite2.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_reddot.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_spaceserpent.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_sprites.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_stars0BG.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_stars2BG.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_stars4BG.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_stars8BG.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_starsBG.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_swarmcloak.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\meta_weaponicons.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\mode7.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\movement_bullet_circle.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\movement_bullet_edge.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\movement_circle.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\movement_edge.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\movement_pop.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\options.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\player.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\score.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\shake.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\sincos.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\snesgss.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\sounds.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\sprites.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\stars.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\title.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cat-zap\wall.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{f40c2521-9c26-4c9f-a197-cbdf570c361b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bd628495-e261-4ddc-b3d9-b7627e3cc07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\engine">
+      <UniqueIdentifier>{8bc675e2-50c4-47ae-a6bc-d505e83d310f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nes">
+      <UniqueIdentifier>{5f2081c0-9906-46e0-89a4-4b3a0aa0bb02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
