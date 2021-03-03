@@ -4,7 +4,7 @@
 #include <SDL.h>
 #include <SDL_image.h>
 
-#include "Asset.h"
+#include "asset.h"
 
 // START CATZAP
 #include "neswin.h"
@@ -207,7 +207,7 @@ void updateArmada();
 #include "game.h"
 
 #define SCREEN_WIDTH  512
-#define SCREEN_HEIGHT  480
+#define SCREEN_HEIGHT  448
 
 // END CATZAP
 
@@ -223,17 +223,7 @@ Asset numbersprite;
 extern bool game_done;
 extern bool game_clear;
 
-void loadAssets() {
-	sprites[0].surface = IMG_Load("../../../cat-zap/res/bases.png");
-	SDL_SetColorKey(sprites[0].surface, SDL_TRUE, SDL_MapRGB(sprites[0].surface->format, 0, 0, 0));
-	sprites[0].texture = SDL_CreateTextureFromSurface(renderer, sprites[0].surface);
-	sprites[0].w = 48;
-	sprites[0].h = 48;
 
-	numbersprite.surface = IMG_Load("../../../nessnake/art/numbers.png");
-	//SDL_SetColorKey(numbersprite.surface, SDL_TRUE, SDL_MapRGB(numbersprite.surface->format, 0, 0, 0));
-	numbersprite.texture = SDL_CreateTextureFromSurface(renderer, numbersprite.surface);
-}
 
 bool initSDL() {
 	if (SDL_Init(SDL_INIT_VIDEO) != 0) {

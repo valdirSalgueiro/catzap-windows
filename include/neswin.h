@@ -1,6 +1,7 @@
 #pragma once
 #include <SDL.h>
 #include <SDL_image.h>
+#include "spritedef.h"
 #include "commontypes.h"
 
 #define NT_UPD_HORZ 0x40
@@ -111,7 +112,7 @@ unsigned short snesmod(const unsigned short a, const unsigned char b) {
 }
 
 void oam_meta_spr_x(int x, unsigned char y,
-	const unsigned char* data) {
+	const unsigned char* data, u8 type) {
 }
 
 void oam_meta_spr_x_high(int x, unsigned char y,
@@ -123,7 +124,7 @@ int _cos(unsigned x) {}
 
 void delay(unsigned char frames) {}
 
-#include "Asset.h"
+#include "asset.h"
 extern Asset sprites[];
 extern Asset bg;
 extern Asset hudsprite;
@@ -279,3 +280,15 @@ const u8 mode7MergedBank;
 const u8 mode7Merged[1];
 const u8 gameoverbgMapBank, gameoverbgMap[1];
 const u8 gameoverbgTileBank, gameoverbgTile[1];
+
+void loadAssets() {
+	sprites[0].surface = IMG_Load("../../../cat-zap/res/sprites.png");
+	SDL_SetColorKey(sprites[0].surface, SDL_TRUE, SDL_MapRGB(sprites[0].surface->format, 0, 0, 0));
+	sprites[0].texture = SDL_CreateTextureFromSurface(renderer, sprites[0].surface);
+	sprites[0].w = 16;
+	sprites[0].h = 16;
+
+	//numbersprite.surface = IMG_Load("../../../nessnake/art/numbers.png");
+	////SDL_SetColorKey(numbersprite.surface, SDL_TRUE, SDL_MapRGB(numbersprite.surface->format, 0, 0, 0));
+	//numbersprite.texture = SDL_CreateTextureFromSurface(renderer, numbersprite.surface);
+}

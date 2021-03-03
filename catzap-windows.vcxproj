@@ -346,6 +346,7 @@
     <ClInclude Include="..\cat-zap\wall.h" />
     <ClInclude Include="include\Asset.h" />
     <ClInclude Include="include\neswin.h" />
+    <ClInclude Include="include\spritedef.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

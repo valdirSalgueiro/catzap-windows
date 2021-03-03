@@ -6,9 +6,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\neswin.h">
-      <Filter>include\engine</Filter>
-    </ClInclude>
     <ClInclude Include="include\Asset.h">
       <Filter>include\nes</Filter>
     </ClInclude>
@@ -254,6 +251,12 @@
     </ClInclude>
     <ClInclude Include="..\cat-zap\wall.h">
       <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\neswin.h">
+      <Filter>include\nes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\spritedef.h">
+      <Filter>include\nes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
