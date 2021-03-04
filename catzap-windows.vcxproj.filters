@@ -252,10 +252,10 @@
     <ClInclude Include="..\cat-zap\wall.h">
       <Filter>include\engine</Filter>
     </ClInclude>
-    <ClInclude Include="include\neswin.h">
+    <ClInclude Include="include\spritedef.h">
       <Filter>include\nes</Filter>
     </ClInclude>
-    <ClInclude Include="include\spritedef.h">
+    <ClInclude Include="include\sneswin.h">
       <Filter>include\nes</Filter>
     </ClInclude>
   </ItemGroup>

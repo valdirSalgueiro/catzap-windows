@@ -7,7 +7,7 @@
 #include "asset.h"
 
 // START CATZAP
-#include "neswin.h"
+#include "sneswin.h"
 
 #include "commontypes.h"
 #include "definitions.h"
@@ -284,7 +284,7 @@ int main(int argc, char* argv[]) {
 			"SDL_Error: %s\n", SDL_GetError());
 	}
 
-	//loadAssets();
+	loadAssets();
 	init_game();
 
 	auto last_time = SDL_GetTicks();
