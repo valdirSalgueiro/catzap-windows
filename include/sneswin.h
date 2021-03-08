@@ -75,7 +75,10 @@ u8 normalizeType(u8 type)
 	{
 		return SPRITE_LEVEL1_ENEMIES;
 	}
-	else if (type == SPRITE_BULLET_ENEMY_INDEX)
+	else if (type == SPRITE_SATELLITE || type == SPRITE_BULLET_ENEMY_INDEX 
+		|| type == SPRITE_PLAYER_BULLET || type == (SPRITE_EXPLOSION_INDEX + 1)
+		|| type == SPRITE_PLAYER_BULLET_RAILGUN
+		|| type == SPRITE_PLAYER_BULLET_HOMMING)
 	{
 		return SPRITE_SPRITES;
 	}
@@ -113,23 +116,6 @@ extern Asset bg;
 extern Asset hudsprite;
 extern Asset numbersprite;
 extern const u8* mapsptr;
-
-void renderNumbers(int x, int y, int pal, int value)
-{
-	SDL_Rect srcrect;
-	srcrect.x = value * 8;
-	srcrect.y = 0;
-	srcrect.w = 8;
-	srcrect.h = 8;
-
-	SDL_Rect dstrect;
-	dstrect.x = x;
-	dstrect.y = y;
-	dstrect.w = 8;
-	dstrect.h = 8;
-
-	SDL_RenderCopy(renderer, numbersprite.texture, &srcrect, &dstrect);
-}
 
 void renderSprite(int srcX, int srcY, int destX, int destY, int type)
 {
@@ -180,6 +166,16 @@ int pad_trigger(unsigned char pad)
 	if (state[SDL_SCANCODE_X] && !oldstate[SDL_SCANCODE_X])
 		triggerState |= PAD_B;
 
+	if (state[SDL_SCANCODE_A] && !oldstate[SDL_SCANCODE_A])
+		triggerState |= PAD_X;
+	if (state[SDL_SCANCODE_S] && !oldstate[SDL_SCANCODE_S])
+		triggerState |= PAD_Y;
+
+	if (state[SDL_SCANCODE_Q] && !oldstate[SDL_SCANCODE_Q])
+		triggerState |= PAD_L;
+	if (state[SDL_SCANCODE_W] && !oldstate[SDL_SCANCODE_W])
+		triggerState |= PAD_R;
+
 	memcpy(oldstate, state, sizeof(Uint8) * SDL_NUM_SCANCODES);
 
 	return triggerState;
@@ -215,6 +211,8 @@ void loadAssets() {
 	loadSprite("../../../cat-zap/res/alphabet.png", 8, 16, SPRITE_ALPHABET);
 	loadSprite("../../../cat-zap/res/base0.png", 48, 48, SPRITE_BASE);
 	loadSprite("../../../cat-zap/res/gamefg.png", 64, 48, SPRITE_GAME_FG);
+	loadSprite("../../../cat-zap/res/weaponicons.png", 16, 16, SPRITE_WEAPON_ICONS);
+	loadSprite("../../../cat-zap/res/powerblast.png", 48, 48, SPRITE_POWERBLAST);
 
 	//level1enemies
 	loadSprite("../../../cat-zap/res/level1enemies.png", 16, 16, SPRITE_LEVEL1_ENEMIES);

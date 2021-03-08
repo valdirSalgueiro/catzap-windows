@@ -284,6 +284,12 @@ int main(int argc, char* argv[]) {
 			"SDL_Error: %s\n", SDL_GetError());
 	}
 
+
+	keys[KEY_SHOOT] = PAD_A;
+	keys[KEY_SPECIAL] = PAD_X;
+	keys[KEY_PREVIOUS_WEAPON] = PAD_L;
+	keys[KEY_NEXT_WEAPON] = PAD_R;
+
 	loadAssets();
 	init_game();
 
