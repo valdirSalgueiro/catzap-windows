@@ -258,6 +258,9 @@
     <ClInclude Include="include\sneswin.h">
       <Filter>include\nes</Filter>
     </ClInclude>
+    <ClInclude Include="..\cat-zap\playerhelper.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">

@@ -13,6 +13,11 @@
 #include "definitions.h"
 #include "sounds.h"
 
+void checkApexPredator(u8 type);
+void checkPoweredUp(u8 type);
+
+void victory();
+
 //shake
 void shakeScreen(u8 strength);
 void updateShake();
@@ -168,7 +173,7 @@ void updateDiving();
 #pragma wrapped-call(pop)
 
 #pragma wrapped-call(push, trampoline, 0x84)
-const u8* controlToASCII(u16 control);
+u8* controlToASCII(u16 control);
 void putsBGEx(u8 x, u8 y, const u8 str[], u8 pal, u8 buf);
 void options_screen();
 #pragma wrapped-call(pop)
@@ -183,10 +188,15 @@ void initStars();
 void drawStars();
 void updateArmada();
 
+void render_level();
+void drawLivesSpr();
+
+#include "highscoreStruct.h"
 #include "sprites.h"
 #include "data.h"
 #include "globalzp.h"
 #include "globalbss.h"
+#include "text.h"
 #include "mode7.h"
 #include "shake.h"
 #include "helper.h"
@@ -199,7 +209,11 @@ void updateArmada();
 #include "bullet_enemy.h"
 #include "score.h"
 #include "item.h"
+#include "scroll.h"
 #include "load.h"
+#include "achievements_helper.h"
+#include "achievements.h"
+#include "highscore.h"
 #include "options.h"
 #include "stars.h"
 //#include "title.h"
@@ -284,39 +298,38 @@ int main(int argc, char* argv[]) {
 			"SDL_Error: %s\n", SDL_GetError());
 	}
 
-
 	keys[KEY_SHOOT] = PAD_A;
 	keys[KEY_SPECIAL] = PAD_X;
 	keys[KEY_PREVIOUS_WEAPON] = PAD_L;
 	keys[KEY_NEXT_WEAPON] = PAD_R;
 
 	loadAssets();
-	init_game();
+	lives = 3;
+	game_level = BOSS_2;
 
 	auto last_time = SDL_GetTicks();
 	while (running) {
-		auto time_now = SDL_GetTicks();
-		auto elapsed = time_now - last_time;
-		last_time = time_now;
+		init_game();
+		while (!game_done) {
+			auto time_now = SDL_GetTicks();
+			auto elapsed = time_now - last_time;
+			last_time = time_now;
 
-		SDL_Event event;
-		while (SDL_PollEvent(&event)) {
-			if (event.type == SDL_QUIT) {
-				running = false;
+			SDL_Event event;
+			while (SDL_PollEvent(&event)) {
+				if (event.type == SDL_QUIT) {
+					running = false;
+				}
 			}
-		}
+			if (!running) {
+				break;
+			}
 
-		if (game_done) {
-			//if (game_clear) 
-			//{
-			//	nextMap();
-			//}
-			//enter_game_screen();
-			//game_done = 0;
-		}
-		else 
-		{
 			render();
+			if (game_clear)
+			{
+				++game_level;
+			}
 		}
 	}
 

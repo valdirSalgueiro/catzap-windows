@@ -99,7 +99,7 @@
       <TreatWarningAsError>false</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
@@ -335,6 +335,7 @@
     <ClInclude Include="..\cat-zap\movement_pop.h" />
     <ClInclude Include="..\cat-zap\options.h" />
     <ClInclude Include="..\cat-zap\player.h" />
+    <ClInclude Include="..\cat-zap\playerhelper.h" />
     <ClInclude Include="..\cat-zap\score.h" />
     <ClInclude Include="..\cat-zap\shake.h" />
     <ClInclude Include="..\cat-zap\sincos.h" />
